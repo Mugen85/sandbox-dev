@@ -1,0 +1,38 @@
+﻿<Window x:Class="ScriptViewerAppWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScriptViewerAppWPF"
+        mc:Ignorable="d"
+        Title="Script Viewer" Height="600" Width="900">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="0,0,0,15">
+            <TextBlock Text="Visualizzatore Script C#" FontSize="22" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,8"/>
+            <TextBlock Text="Seleziona uno script .cs dalla lista per visualizzarne il contenuto qui sotto." 
+                       FontSize="13" TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="280" MinWidth="180"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="*" MinWidth="200"/>
+            </Grid.ColumnDefinitions>
+
+            <ListBox x:Name="scriptsListBox" Grid.Column="0" Margin="0,0,5,0"
+                     SelectionChanged="ScriptsListBox_SelectionChanged"/>
+
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="LightGray"/>
+
+            <TextBox x:Name="scriptContentTextBox" Grid.Column="2" Margin="5,0,0,0"
+                     TextWrapping="NoWrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                     IsReadOnly="True" FontFamily="Consolas"/>
+        </Grid>
+    </Grid>
+</Window>

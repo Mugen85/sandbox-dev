@@ -1,0 +1,13 @@
+# File e cartelle generati da Visual Studio
+**/[Bb]in/
+**/[Oo]bj/
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# File specifici del sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini

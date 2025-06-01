@@ -1,0 +1,14 @@
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\obj\Debug\net9.0\TaskManagerConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\obj\Debug\net9.0\TaskManagerConsole.AssemblyInfoInputs.cache
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\obj\Debug\net9.0\TaskManagerConsole.AssemblyInfo.cs
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\obj\Debug\net9.0\TaskManagerConsole.csproj.CoreCompileInputs.cache
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\bin\Debug\net9.0\TaskManagerConsole.exe
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\bin\Debug\net9.0\TaskManagerConsole.deps.json
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\bin\Debug\net9.0\TaskManagerConsole.runtimeconfig.json
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\bin\Debug\net9.0\TaskManagerConsole.dll
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\bin\Debug\net9.0\TaskManagerConsole.pdb
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\obj\Debug\net9.0\TaskManagerConsole.dll
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\obj\Debug\net9.0\refint\TaskManagerConsole.dll
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\obj\Debug\net9.0\TaskManagerConsole.pdb
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\obj\Debug\net9.0\TaskManagerConsole.genruntimeconfig.cache
+C:\Users\Doppi\OneDrive\Desktop\GitHub-Projects\TaskManagerConsole\obj\Debug\net9.0\ref\TaskManagerConsole.dll

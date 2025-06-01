@@ -1,0 +1,15 @@
+/bin/
+/obj/
+/*.log
+*.cache
+*.compiled
+*.dbg.mdb
+*.il
+*.out
+*.pid
+*.ref
+*.resources
+*.suo
+*.vshost.exe
+*.vshost.exe.config
+*.xml

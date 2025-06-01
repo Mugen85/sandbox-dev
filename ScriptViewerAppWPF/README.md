@@ -5,6 +5,9 @@ ScriptViewerAppWPF è una semplice applicazione desktop Windows progettata per v
 
 Questa applicazione è stata sviluppata come parte della repository `Sandbox-dev`.
 
+**Anteprima dell'Applicazione:**
+![Anteprima di ScriptViewerAppWPF](demo/ScriptViewerAppWPFDemo.gif)
+
 *(English version below)*
 
 ## ✨ Funzionalità Principali
@@ -82,6 +85,9 @@ Questo progetto è un componente della repository `Sandbox-dev` e si trova nel s
 ScriptViewerAppWPF is a simple Windows desktop application designed to display the content of C# script files (`.cs`) located in a specific folder. It provides a clean and intuitive user interface for Browse scripts and reading their source code.
 
 This application was developed as part of the `Sandbox-dev` repository.
+
+**Application Preview:**
+![ScriptViewerAppWPF Preview](demo/ScriptViewerAppWPFDemo.gif)
 
 ## ✨ Key Features
 -   Loads and displays a list of script files (`.cs`) from a predefined directory.

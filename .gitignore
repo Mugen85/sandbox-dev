@@ -1,0 +1,19 @@
+# Visual Studio/Rider cache
+.vs/
+.idea/
+
+# Dumps
+*.dmp
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+build/
+Build/
+build-results/
+
+# User-specific files
+*.user
+*.suo

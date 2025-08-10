@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PrincipiOOP_CSharp.Veicolo">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQBAAAAACAACAAAAAAAMAAAgBAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Veicolo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrincipiOOP_CSharp.Motocicletta">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACCACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Motocicletta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrincipiOOP_CSharp.Automobile">
+    <Position X="2" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAACAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Automobile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

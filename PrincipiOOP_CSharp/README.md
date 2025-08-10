@@ -1,10 +1,10 @@
-# Progetto Dimostrativo sui 4 Pilastri della OOP in C#
+# Progetto dimostrativo sui 4 pilastri della OOP in C#
 
 Questo repository contiene un'applicazione console in C# creata per dimostrare in modo chiaro e pratico i quattro principi fondamentali della Programmazione Orientata agli Oggetti (OOP).
 
 Il progetto è strutturato per essere semplice da comprendere e serve come esempio pratico per chiunque voglia approfondire questi concetti chiave.
 
-## Scopo del Progetto
+## Scopo del progetto
 
 L'obiettivo è fornire un codice sorgente ben commentato che illustri i seguenti pilastri della OOP attraverso un esempio a tema veicoli:
 
@@ -13,7 +13,7 @@ L'obiettivo è fornire un codice sorgente ben commentato che illustri i seguenti
 3. **Ereditarietà**
 4. **Polimorfismo**
 
-## I Quattro Pilastri della OOP
+## I quattro pilastri della OOP
 
 Ogni principio è implementato nel codice come segue:
 
@@ -86,10 +86,10 @@ foreach (var veicolo in veicoli)
 }
 ```
 
-## Struttura del Progetto
+## Struttura del progetto
 
 ```
-📁 Progetto-OOP-Demo/
+📁 PrincipiOOP_Csharp/
 ├── 📄 Program.cs
 ├── 📄 Veicolo.cs
 ├── 📄 Motocicletta.cs
@@ -97,7 +97,7 @@ foreach (var veicolo in veicoli)
 └── 📄 README.md
 ```
 
-## Diagramma di Classe (UML)
+## Diagramma di classe (UML)
 
 Il seguente diagramma UML illustra visivamente la struttura delle classi e le loro relazioni:
 
@@ -105,7 +105,7 @@ Il seguente diagramma UML illustra visivamente la struttura delle classi e le lo
 
 *Il diagramma mostra la classe astratta `Veicolo` con i suoi campi privati, proprietà pubbliche e metodi. Le classi `Automobile` e `Motocicletta` ereditano da `Veicolo` e implementano le proprie proprietà e metodi specifici.*
 
-## Come Eseguire il Progetto
+## Come eseguire il progetto
 
 1. **Clonare il repository**
    ```bash
@@ -121,12 +121,12 @@ Il seguente diagramma UML illustra visivamente la struttura delle classi e le lo
    - Impostare il progetto come progetto di avvio
    - Premere `F5` o il pulsante "Avvia" per eseguire l'applicazione console
 
-## Requisiti di Sistema
+## Requisiti di sistema
 
 - **.NET 6.0** o versioni successive
 - **Visual Studio 2022** (consigliato) o **Visual Studio Code**
 
-## Output di Esempio
+## Output di esempio
 
 ```
 === Dimostrazione dei 4 Pilastri della OOP ===
@@ -142,7 +142,7 @@ Motocicletta accelera a 80 km/h
 Automobile accelera a 60 km/h
 ```
 
-## Concetti Chiave Dimostrati
+## Concetti chiave dimostrati
 
 - ✅ **Incapsulamento**: Controllo dell'accesso ai dati
 - ✅ **Astrazione**: Definizione di contratti attraverso classi astratte
@@ -153,10 +153,6 @@ Automobile accelera a 60 km/h
 
 Sentiti libero di contribuire al progetto creando issue o pull request per miglioramenti e correzioni.
 
-## Licenza
-
-Questo progetto è distribuito sotto licenza MIT. Vedi il file `LICENSE` per maggiori dettagli.
-
----
+--------------------------------------------------------------
 
 *Progetto creato a scopo didattico per illustrare i principi fondamentali della Programmazione Orientata agli Oggetti in C#*

@@ -74,16 +74,45 @@ Il polimorfismo viene messo in pratica nel file `Program.cs`. Una `List<Veicolo>
 Quando si itera sulla lista e si invoca un metodo come `veicolo.AvviaMotore()`, il .NET Runtime seleziona dinamicamente l'implementazione corretta (`override`) a seconda del tipo reale dell'oggetto. Questo permette di trattare oggetti diversi in modo uniforme.
 
 ```csharp
-List<Veicolo> veicoli = new List<Veicolo>
+public class Program
 {
-    new Motocicletta(),
-    new Automobile()
-};
+    public static void Main()
+    {
+        Console.WriteLine("--- Benvenuto nel Garage OOP ---\n");
 
-foreach (var veicolo in veicoli)
-{
-    veicolo.AvviaMotore(); // Polimorfismo in azione!
+        // --- POLIMORFISMO IN AZIONE ---
+        // Creiamo una lista che può contenere qualsiasi
+        // oggetto sia un "Veicolo".
+        // Grazie all'ereditarietà, possiamo inserire
+        // sia Motociclette che Automobili.
+        List<Veicolo> garage =
+        [
+            new Motocicletta("Yamaha", "XT1200Z Super Ténéré", 210, 1200),
+            new Automobile("Fiat", "Panda", 160, 5),
+            new Motocicletta("Ducati", "Panigale V4", 300, 1103),
+        ];
+
+        // Ora iteriamo sulla lista. Il codice non sa se l'oggetto 'veicolo'
+        // è una moto o un'auto. Chiama semplicemente i metodi.
+        // Il .NET Runtime si occupa di eseguire
+        // l'implementazione corretta (override)
+        // per ogni oggetto specifico. Questo è il polimorfismo.
+        foreach (var veicolo in garage)
+        {
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine(veicolo.OttieniDettagli());
+            veicolo.AvviaMotore();
+            veicolo.Accelera(50);
+            Console.WriteLine("-----------------------------------------\n");
+        }
+
+        // Tentativo di creare un Veicolo generico (non compila)
+        // Decommenta per vedere l'errore: "Impossibile creare
+        // un'istanza della classe astratta o dell'interfaccia 'Veicolo'".
+        // Veicolo veicoloGenerico = new Veicolo("Marca", "Modello", 100);
+    }
 }
+
 ```
 
 ## Struttura del progetto
@@ -131,15 +160,25 @@ Il seguente diagramma UML illustra visivamente la struttura delle classi e le lo
 ```
 === Dimostrazione dei 4 Pilastri della OOP ===
 
-Avvio della Motocicletta Honda CBR600RR...
-Motore avviato! Cilindrata: 600cc
+--- Benvenuto nel Garage OOP ---
 
-Avvio dell'Automobile Toyota Corolla...
-Motore avviato! Numero porte: 4
+-----------------------------------------
+Veicolo: Yamaha XT1200Z Super Ténéré | Vel Max: 210 km/h | Cilindrata: 1200cc | Carburante: Benzina 98 Ottani
+La XT1200Z Super Ténéré si avvia con un rombo! Vrooom!
+Yamaha XT1200Z Super Ténéré accelera. Velocità: 50 km/h
+-----------------------------------------
 
-Accelerazione di tutti i veicoli...
-Motocicletta accelera a 80 km/h
-Automobile accelera a 60 km/h
+-----------------------------------------
+Veicolo: Fiat Panda | Vel Max: 160 km/h | Porte: 5 | Carburante: Diesel
+La Panda si avvia silenziosamente. Click.
+Fiat Panda accelera. Velocità: 50 km/h
+-----------------------------------------
+
+-----------------------------------------
+Veicolo: Ducati Panigale V4 | Vel Max: 300 km/h | Cilindrata: 1103cc | Carburante: Benzina 98 Ottani
+La Panigale V4 si avvia con un rombo! Vrooom!
+Ducati Panigale V4 accelera. Velocità: 50 km/h
+-----------------------------------------
 ```
 
 ## Concetti chiave dimostrati

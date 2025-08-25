@@ -12,8 +12,10 @@ public class Program
         Console.WriteLine("--- Benvenuto nel Garage OOP ---\n");
 
         // --- POLIMORFISMO IN AZIONE ---
-        // Creiamo una lista che può contenere qualsiasi oggetto sia un "Veicolo".
-        // Grazie all'ereditarietà, possiamo inserire sia Motociclette che Automobili.
+        // Creiamo una lista che può contenere qualsiasi
+        // oggetto sia un "Veicolo".
+        // Grazie all'ereditarietà, possiamo inserire
+        // sia Motociclette che Automobili.
         List<Veicolo> garage =
         [
             new Motocicletta("Yamaha", "XT1200Z Super Ténéré", 210, 1200),
@@ -23,7 +25,8 @@ public class Program
 
         // Ora iteriamo sulla lista. Il codice non sa se l'oggetto 'veicolo'
         // è una moto o un'auto. Chiama semplicemente i metodi.
-        // Il .NET Runtime si occupa di eseguire l'implementazione corretta (override)
+        // Il .NET Runtime si occupa di eseguire
+        // l'implementazione corretta (override)
         // per ogni oggetto specifico. Questo è il polimorfismo.
         foreach (var veicolo in garage)
         {
@@ -35,7 +38,8 @@ public class Program
         }
 
         // Tentativo di creare un Veicolo generico (non compila)
-        // Decommenta per vedere l'errore: "Impossibile creare un'istanza della classe astratta o dell'interfaccia 'Veicolo'".
+        // Decommenta per vedere l'errore: "Impossibile creare
+        // un'istanza della classe astratta o dell'interfaccia 'Veicolo'".
         // Veicolo veicoloGenerico = new Veicolo("Marca", "Modello", 100);
     }
 }
